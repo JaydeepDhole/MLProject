@@ -20,7 +20,7 @@ This dataset satisfies assignment constraints:
 ---
 
 ## c. Models used  
-(1 mark for all metrics for each model)
+
 
 The following models were trained on the same dataset and evaluated on the hold-out test split:
 

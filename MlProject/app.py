@@ -97,7 +97,7 @@ with st.expander("Required feature columns"):
     st.write(schema["feature_columns"])
 
 if uploaded is None:
-    st.info("Use sample_test.csv / sample_test_no_target.csv, or upload your own test CSV.")
+    st.info("Use DataSet/breast_cancer_test.csv file for test data, or upload your own test CSV.")
     st.stop()
 
 df = pd.read_csv(uploaded)

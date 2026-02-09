@@ -97,7 +97,7 @@ with st.expander("Required feature columns"):
     st.write(schema["feature_columns"])
 
 if uploaded is None:
-    st.info("Download and use "https://github.com/JaydeepDhole/MLProject/blob/main/MlProject/DataSet/breast_cancer_test.csv" file for test data, or upload your own test CSV.")
+    st.info("Download and use https://github.com/JaydeepDhole/MLProject/blob/main/MlProject/DataSet/breast_cancer_test.csv file for test data, or upload your own test CSV.")
     st.stop()
 
 df = pd.read_csv(uploaded)
